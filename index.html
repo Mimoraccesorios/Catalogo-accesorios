@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Catálogo</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/4451703a6d.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<img src="Images/Logo Definitivo.png">
+				<h2>Catálogo #1</h2>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Aretes</a>
+				<a href="#">Cadenas</a>
+				<a href="#">Orejeras</a>
+				<a href="#">Pulseras</a>
+			</div>
+		</header>
+		
+		<section class="grid" id="grid">
+			<div class="item" 
+				data-categoria="cadenas" 
+				data-etiquetas="Cadena cadena dorado Dorado cruz Cruz"
+				data-descripcion="Cadena en acero inoxidable de 45 cms
+				<h3>Precio:$20.500</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/1.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="cadenas" 
+				data-etiquetas="Cadena cadena plata Plata infinito"
+				data-descripcion="Cadena en acero inoxidable de 45 cms
+				<h3>Precio:$20.500</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/2.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="cadenas" 
+				data-etiquetas="Cadena cadena plata cruz Cruz"
+				data-descripcion="Cadena en acero inoxidable de 45 cms
+				<h3>Precio:$20.500</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/3.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="orejeras" 
+				data-etiquetas="orejera Orejera dorado Dorado"
+				data-descripcion="Orejera, vaciada en bronce y baño 24k 
+				Medida 9 Cms de alto.
+				<h3>Precio:$62.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/4.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="tobilleras" 
+				data-etiquetas="Tobillera tobillera miyuki Miyuki rojo"
+				data-descripcion="Tobillera tejida a mano en miyuki
+				<h3>Precio:$35.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/5.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="aretes" 
+				data-etiquetas="Arete arete Topos topo miyuki Miyuki"
+				data-descripcion="Topos tejidos a mano en miyuki
+				<h3>Precio:$19.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/7.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="cadenas" 
+				data-etiquetas="cadena Cadena dorado Dorado cruz Cruz"
+				data-descripcion="Collares en oro golfi, personalizamos tus accesorios.
+				Juego de 3 cadenas
+				La de cruz mide 45 cms
+				La de medalla 55 Cms
+				La de caracol 65 Cms
+				<h3>Precio:$28.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/8.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="orejeras" 
+				data-etiquetas="orejera Orejera piedras naturales Piedras Naturalez
+				verde Verde blanco Blanco"
+				data-descripcion="Orejera en oro golfi y piedra natural
+				<h3>Precio:$18.500</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/9.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="orejeras" 
+				data-etiquetas="orejera Orejera piedras naturales Piedras Naturalez
+				Morado morado Moradas moradas"
+				data-descripcion="Orejera en oro golfi y piedra natural
+				<h3>Precio:$18.500</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/10.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras" 
+				data-etiquetas="Pulsera pulsera Rosado rosa"
+				data-descripcion="Pulseras acero,neopreno y rodio, se te fabrica en el color que desees.
+				<h3>Precio:$18.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/11.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras" 
+				data-etiquetas="Pulsera pulsera Negro negro blanco Blanco"
+				data-descripcion="Pulseras acero,neopreno y rodio, se te fabrica en el color que desees.
+				<h3>Precio:$18.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/12.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras" 
+				data-etiquetas="Pulsera pulsera Blanco blanco"
+				data-descripcion="Pulseras acero,neopreno y rodio, se te fabrica en el color que desees.
+				<h3>Precio:$18.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/13.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras" 
+				data-etiquetas="Pulsera pulsera blanco Blanco"
+				data-descripcion="Pulseras acero,neopreno y rodio, se te fabrica en el color que desees.
+				<h3>Precio:$18.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/14.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras" 
+				data-etiquetas="Pulsera pulsera rojo Rojo"
+				data-descripcion="Pulseras acero,neopreno y rodio, se te fabrica en el color que desees.
+				<h3>Precio:$18.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/15.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras" 
+				data-etiquetas="Pulsera pulsera azul Azul"
+				data-descripcion="Pulseras acero,neopreno y rodio, se te fabrica en el color que desees.
+				<h3>Precio:$18.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/16.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="cadenas" 
+				data-etiquetas="Cadena cadena Dorado dorado iniciales Iniciales"
+				data-descripcion="Iniciales en oro golfi, inicial y cadena.
+				La cadena mide 45cms, la letra 2.0 Cms
+				<h3>Precio:$10.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/17.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="cadenas"
+				data-etiquetas="cadena Cadena iniciales Iniciales dorado Dorado"
+				data-descripcion="Iniciales en acero inoxidable cadena e inicial.
+				La cadena mide 45 Cms, la letra 3.0 Cms
+				<h3>Precio:$10.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/18.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="cadenas"
+				data-etiquetas="Cadena cadena Iniciales iniciales plata Plata"
+				data-descripcion="Iniciales en acero inoxidable cadena e inicial.
+				La cadena mide 45 Cms, la letra 3.0 Cms
+				<h3>Precio:$10.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/19.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras"
+				data-etiquetas="pulsera Pulsera oro laminado Oro Laminado"
+				data-descripcion="Pulseras oro laminado 18k, garantía 5 años
+				<h3>Precio:$80.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/20.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras"
+				data-etiquetas="Pulseras pulsera negra Negra negro Negro"
+				data-descripcion="Pulseras personalizadas con la inicial que desees
+				<h3>Precio:$34.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/21.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="cadenas"
+				data-etiquetas="cadena Cadena dorado Dorado iniciales Iniciales"
+				data-descripcion="Cadena nombres personalizados, la cadena mide 45 Cms, cada letra mide 1.0 Cms
+				<h3>Precio:Desde $10.000 hasta $19.000</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/22.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras"
+				data-etiquetas="pulseras Pulseras azul Azul Plata plata Rodio rodio mano Mano"
+				data-descripcion="Pulsera mano rodio
+				<h3>Precio:$16.500</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/23.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras"
+				data-etiquetas="pulseras Pulseras Dorado rosa Rosa Rodio rodio corazón Corazón"
+				data-descripcion="Pulsera corazón rodio
+				<h3>Precio:$16.500</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/24.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras"
+				data-etiquetas="pulseras Pulseras Dorado rosa Rosa Rodio rodio infinito Infinito"
+				data-descripcion="Pulsera infinito Rodio
+				<h3>Precio:$16.500</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/25.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="cadenas"
+				data-etiquetas="Cadena cadena Dorado dorado rodio Rodio dijes Dijes"
+				data-descripcion="Cadena y dije en rodio.
+				La cadena mide 45 Cms, los dijes miden 1.2 cms aproximadamente
+				<h3>Precio:$25.700</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/26.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="aretes"
+				data-etiquetas="Arete arete oro golfie Oro Golfie"
+				data-descripcion="Aretes tejidos a mano en oro golfi el par.
+				Medida 4.3 cms de alto, peso aproximado 7.53 g
+				<h3>Precio:$10.200</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/27.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="aretes"
+				data-etiquetas="Arete arete oro golfie Oro Golfie"
+				data-descripcion="Aretes tejidos a mano en oro golfi el par.
+				Medida 5.3 cms de alto, peso aproximado 6.95 g
+				<h3>Precio:$10.200</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/28.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="aretes"
+				data-etiquetas="Arete arete oro golfie Oro Golfie"
+				data-descripcion="Aretes tejidos a mano en oro golfi el par.
+				Medida 5.5 cms de alto, peso aproximado 9.20 g
+				<h3>Precio:$10.200</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/29.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="aretes"
+				data-etiquetas="Arete arete oro golfie Oro Golfie"
+				data-descripcion="Aretes tejidos a mano en oro golfi el par.
+				Medida 7.5 cms de alto, peso aproximado 8.90 g
+				<h3>Precio:$10.200</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/30.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="aretes"
+				data-etiquetas="Arete arete oro golfie Oro Golfie"
+				data-descripcion="Aretes tejidos a mano en oro golfi el par.
+				Medida 7.5 cms de alto, peso aproximado 11 g
+				<h3>Precio:$10.200</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/31.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="aretes"
+				data-etiquetas="Arete arete oro golfie Oro Golfie"
+				data-descripcion="Aretes tejidos a mano en oro golfi el par.
+				Medida 7.5 cms de alto, peso aproximado 8.33 g
+				<h3>Precio:$10.200</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/33.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="aretes"
+				data-etiquetas="Arete arete oro golfie Oro Golfie"
+				data-descripcion="Aretes tejidos a mano en oro golfi el par.
+				Medida 6.0 cms de alto, peso aproximado 11.30 g
+				<h3>Precio:$10.200</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/34.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="aretes"
+				data-etiquetas="Arete arete piedra natura Piedra Natural oro Oro"
+				data-descripcion="Topos en piedra natural con baño de oro
+				Medida 2.0 Cms aproximadamente, peso aproximado 4.0 g el par.
+				<h3>Precio:$20.500</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/35.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="cadenas"
+				data-etiquetas="cadena Cadena iniciales Iniciales dorado Dorado"
+				data-descripcion="Tenemos todas las letras disponibles pregunta por tú nombre.
+				La cadena mide 45 cms, cada letra mide 1.0 cms de alto
+				<h3>Precio:$19.000 hasta con 6 letras, letra adicional $2000.</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/36.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras"
+				data-etiquetas="pulsera Pulsera pandora Pandora acero Acero Samack samack"
+				data-descripcion="Pulsera tipo Pandora, material acero y dijes en samack
+				<h3>Precio:$17.900</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/37.jpg">
+				</div>
+			</div>
+			<div class="item" 
+				data-categoria="pulseras"
+				data-etiquetas="Pulsera pulsera inicial Inicial personalizadas Personalizadas"
+				data-descripcion="Pulseras personalizadas con tu nombre o inicial
+				Pulsera 1- tejida con balines de oro laminado 18k garantía de 5 años
+				Pulsera 2- pulsera cubos oro golfi con iniciales
+				<h3>Pulsera 1: $92.000
+				Pulsera 2: $19.900</h3>"
+			>
+				<div class="item-contenido">
+					<img src="Images/38.jpg">
+				</div>
+			</div>
+		</section>
+		
+		
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="Images/1.jpg">
+			</div>
+			<p class="descripcion">Abanico canutillo: T15 
+				En promedio el par de arete pesa:11.66gr 
+				Tiene en mostacilla: 114und (1.14gr)
+				En muranos #4 47unds (2.95gr)
+				En aro de 3cm (0.45gr) Mide: 5.4cm
+				En canutillo: 27unds (1.29gr)
+				Con aproximadamente 1metro de naylon rígido</p>
+				<h3 class="precio">precio:20.900</h3>
+		</section>
+		
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="https://www.facebook.com/Mi-mor-accesorios-107679891035649/" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://www.instagram.com/mimoraccesorios/" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://wa.me/+573126120635" target="_blank" class="whatsapp">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="mailto:mimoraccesorios@gmail.com ?subject=Me interesa&body=Me interesa mucho este producto, ¿Me podrías brindar mas información?" target="_blank" class="gmail">
+						<i class="fas fa-envelope"></i>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<p>Catálogo</p>
+				<i class="far fa-copyright">Todos los derechos reservados Mi Mor accesorios</i><p></p>
+			</div>
+		</footer>
+	</div>
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script> 
+</body>
+</html>
+
